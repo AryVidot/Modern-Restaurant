@@ -1,9 +1,33 @@
 import React from "react";
 
+import {
+  AboutUs,
+  ChefSection,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+} from "./container";
+
+import { Navbar } from "./components";
+import "./App.css";
+
 const App = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <Navbar />
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <ChefSection />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer />
     </div>
   );
 };
